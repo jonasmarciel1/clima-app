@@ -1,0 +1,109 @@
+/* Reset Básico e Variáveis de Tema              */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --body-bg: #E4E9F7;
+    --container-bg: #FFFFFF;
+    --text-color: #333;
+    --input-bg: #F0F2F5;
+    --button-bg: #007bff;
+    --border-color: #ddd; /* Cor da borda para o tema claro */
+}
+
+body.dark-mode {
+    --body-bg: #3a3b3c;
+    --container-bg: #242526;
+    --text-color: #E4E9F7;
+    --input-bg: #3a3b3c;
+    --border-color: #444; /* Cor da borda para o tema escuro */
+}
+
+/* ============================================= */
+/* Estilos Principais                            */
+/* ============================================= */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--body-bg);
+    transition: background-color 0.4s ease-in-out;
+}
+
+.container {
+    background: var(--container-bg);
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+    transition: 0.4s, color 0.4s;
+}
+
+.search-box { display: flex; justify-content: center; gap: 0.5rem; margin: 1.5rem 0; }
+.search-box input { border: 1px solid #ccc; outline: none; padding: 0.75rem; border-radius: 25px; background: var(--input-bg); color: var(--text-color); width: 70%; transition: background 0.4s, color 0.4s; }
+.search-box input:focus { border-color: var(--button-bg); }
+.search-box button { border: none; background: var(--button-bg); color: white; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; font-size: 1rem; transition: background-color 0.3s; }
+
+/* Estilos para o header da cidade e bandeira */
+#city-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#country-flag {
+    height: 30px;
+}
+
+#temperature { font-size: 3.5rem; font-weight: 600; margin: 1rem 0; }
+#description-container { display: flex; justify-content: center; align-items: center; text-transform: capitalize; font-weight: 500; }
+
+/* Estilos para os detalhes extras */
+#extra-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: left;
+}
+.detail-item i {
+    font-size: 1.5rem;
+}
+.detail-item p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+
+#weather-info { transition: opacity 0.5s ease-in-out; }
+#weather-info.hide { display: none; opacity: 0; }
+.hide { display: none; }
+
+/* Estilos do Interruptor de Tema        */
+.theme-switch-wrapper { display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1rem; }
+.theme-switch { position: relative; display: inline-block; width: 50px; height: 24px; }
+.theme-switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; }
+.slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: .4s; }
+input:checked + .slider { background-color: var(--button-bg); }
+input:checked + .slider:before { transform: translateX(26px); }
+.slider.round { border-radius: 34px; }
+.slider.round:before { border-radius: 50%; }
+
+/* Animação de Loading (Spinner)                 */
+.loader { border: 4px solid rgba(0, 0, 0, 0.1); width: 36px; height: 36px; border-radius: 50%; border-left-color: var(--button-bg); animation: spin 1s ease infinite; margin: auto; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
