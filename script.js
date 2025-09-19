@@ -15,6 +15,7 @@ const countryFlagImg = document.querySelector("#country-flag");
 const humidityP = document.querySelector("#humidity");
 const windP = document.querySelector("#wind");
 
+const apiKey = "%VITE_WEATHER_API_KEY%";
 
 
 // LÓGICA DO SELETOR DE TEMA
