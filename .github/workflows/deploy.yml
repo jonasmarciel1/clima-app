@@ -5,9 +5,9 @@ on:
     branches:
       - main
 
-# NOVO: Adiciona as permissões necessárias para a Action
 permissions:
-  contents: read
+  # CORREÇÃO: Mudamos de 'read' para 'write'
+  contents: write 
   pages: write
   id-token: write
 
