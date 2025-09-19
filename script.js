@@ -15,6 +15,7 @@ const countryFlagImg = document.querySelector("#country-flag");
 const humidityP = document.querySelector("#humidity");
 const windP = document.querySelector("#wind");
 
+// CORRETO (com um % de cada lado)
 const apiKey = "00f1ffc3c0b27ee8dc27605bed44e15d";
 
 
