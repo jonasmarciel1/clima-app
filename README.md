@@ -3,10 +3,11 @@ Um dashboard de previsão do tempo moderno e interativo, construído do zero com
 
 🎬 Demonstração em Vídeo
 Abaixo, uma demonstração de como a aplicação funciona, incluindo a busca por uma cidade e a troca de tema entre Claro (Light) e Escuro (Dark).
-![Demonstração do Weather App](./demo.gif)
+![Demonstração do Weather App](https://github.com/user-attachments/assets/6d73e571-4c95-4035-a4fc-35e8f83b0261)
 
 
-✨ Funcionalidades Principais
+✨ Funcionalidades Principais!
+
 ✅ Busca em Tempo Real: Pesquise por qualquer cidade do mundo e obtenha dados climáticos instantaneamente.
 
 - ✅ Dados Detalhados: Informações completas incluindo temperatura, descrição do clima, umidade e velocidade do vento.
