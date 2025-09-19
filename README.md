@@ -31,3 +31,7 @@ Este projeto foi construído com as melhores práticas de front-end, utilizando 
  - Fetch API	Realização de requisições assíncronas (async/await) para consumir APIs externas.
  - OpenWeatherMap API	Fornecimento dos dados climáticos em tempo real.
  - FlagsAPI	Exibição das bandeiras dos países.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Isso significa que você pode usar, copiar, modificar e distribuir este código para qualquer finalidade, inclusive comercial, desde que mantenha os créditos ao autor original.
