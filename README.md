@@ -24,13 +24,14 @@ Abaixo, uma demonstração de como a aplicação funciona, incluindo a busca por
 ## 🛠️ Tecnologias e Ferramentas
 Este projeto foi construído com as melhores práticas de front-end, utilizando um conjunto de tecnologias modernas e eficientes:
 
-Tecnologia / Ferramenta	Descrição
-HTML5	Estruturação semântica do conteúdo.
-CSS3	Estilização avançada com Flexbox, Variáveis CSS e design responsivo.
-JavaScript (ES6+)	Lógica principal, manipulação do DOM e interatividade.
-Fetch API	Realização de requisições assíncronas (async/await) para consumir APIs externas.
-OpenWeatherMap API	Fornecimento dos dados climáticos em tempo real.
-FlagsAPI	Exibição das bandeiras dos países.
-Font Awesome	Biblioteca de ícones para uma interface mais intuitiva.
-Google Fonts	Tipografia moderna e legível (família Poppins).
-Git & GitHub	Controle de versão e hospedagem do código.
+- Tecnologia / Ferramenta	Descrição
+- HTML5	Estruturação semântica do conteúdo.
+- CSS3	Estilização avançada com Flexbox, Variáveis CSS e design responsivo.
+- JavaScript (ES6+)	Lógica principal, manipulação do DOM e interatividade.
+- Fetch API	Realização de requisições assíncronas (async/await) para consumir APIs externas.
+- OpenWeatherMap API	Fornecimento dos dados climáticos em tempo real.
+- FlagsAPI	Exibição das bandeiras dos países.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Isso significa que você pode usar, copiar, modificar e distribuir este código para qualquer finalidade, inclusive comercial, desde que mantenha os créditos ao autor original.
