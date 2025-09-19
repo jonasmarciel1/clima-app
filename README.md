@@ -1,13 +1,13 @@
 # 🌦️ Clima.Dev | Previsão do Tempo Interativa
 Um dashboard de previsão do tempo moderno e interativo, construído do zero com JavaScript puro. Perfeito para quem busca informações rápidas com uma interface limpa e agradável, que se adapta às suas preferências de visualização (Light & Dark Mode).
 
-## 🎬 Demonstração em Vídeo
-- Abaixo, uma demonstração de como a aplicação funciona, incluindo a busca por uma cidade e a troca de tema entre Claro (Light) e Escuro (Dark).
+🎬 Demonstração em Vídeo
+Abaixo, uma demonstração de como a aplicação funciona, incluindo a busca por uma cidade e a troca de tema entre Claro (Light) e Escuro (Dark).
 
 
 
-## ✨ Funcionalidades Principais
-- ✅ Busca em Tempo Real: Pesquise por qualquer cidade do mundo e obtenha dados climáticos instantaneamente.
+✨ Funcionalidades Principais
+✅ Busca em Tempo Real: Pesquise por qualquer cidade do mundo e obtenha dados climáticos instantaneamente.
 
 - ✅ Dados Detalhados: Informações completas incluindo temperatura, descrição do clima, umidade e velocidade do vento.
 
@@ -22,10 +22,13 @@ Um dashboard de previsão do tempo moderno e interativo, construído do zero com
 ## 🛠️ Tecnologias e Ferramentas
 Este projeto foi construído com as melhores práticas de front-end, utilizando um conjunto de tecnologias modernas e eficientes:
 
- - Tecnologia / Ferramenta	Descrição
- - HTML5	Estruturação semântica do conteúdo.
- - CSS3	Estilização avançada com Flexbox, Variáveis CSS e design responsivo.
- - JavaScript (ES6+)	Lógica principal, manipulação do DOM e interatividade.
- - Fetch API	Realização de requisições assíncronas (async/await) para consumir APIs externas.
- - OpenWeatherMap API	Fornecimento dos dados climáticos em tempo real.
- - FlagsAPI	Exibição das bandeiras dos países.
+Tecnologia / Ferramenta	Descrição
+HTML5	Estruturação semântica do conteúdo.
+CSS3	Estilização avançada com Flexbox, Variáveis CSS e design responsivo.
+JavaScript (ES6+)	Lógica principal, manipulação do DOM e interatividade.
+Fetch API	Realização de requisições assíncronas (async/await) para consumir APIs externas.
+OpenWeatherMap API	Fornecimento dos dados climáticos em tempo real.
+FlagsAPI	Exibição das bandeiras dos países.
+Font Awesome	Biblioteca de ícones para uma interface mais intuitiva.
+Google Fonts	Tipografia moderna e legível (família Poppins).
+Git & GitHub	Controle de versão e hospedagem do código.
