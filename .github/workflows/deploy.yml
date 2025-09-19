@@ -1,0 +1,22 @@
+name: Deploy Weather App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Find and Replace API Key 🔑
+        run: |
+          sed -i "s|%VITE_WEATHER_API_KEY%|${{ secrets.VITE_WEATHER_API_KEY }}|g" script.js
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .
