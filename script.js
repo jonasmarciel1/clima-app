@@ -1,6 +1,6 @@
-// ===================================================================
+
 // SELEÇÃO DOS ELEMENTOS DO HTML
-// ===================================================================
+
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search-btn");
 const weatherInfoDiv = document.querySelector("#weather-info");
@@ -16,9 +16,9 @@ const humidityP = document.querySelector("#humidity");
 const windP = document.querySelector("#wind");
 
 
-// ===================================================================
+
 // LÓGICA DO SELETOR DE TEMA
-// ===================================================================
+
 themeToggle.addEventListener("change", () => {
     document.body.classList.toggle("dark-mode");
     if (document.body.classList.contains("dark-mode")) {
@@ -34,9 +34,9 @@ if (savedTheme === "dark") {
     themeToggle.checked = true;
 }
 
-// ===================================================================
+
 // FUNÇÃO PRINCIPAL DE DADOS DO CLIMA
-// ===================================================================
+
 const getWeatherData = async () => {
     const city = cityInput.value;
 
@@ -81,9 +81,9 @@ const getWeatherData = async () => {
     }
 };
 
-// ===================================================================
+
 // EVENTOS
-// ===================================================================
+
 searchBtn.addEventListener("click", () => {
     getWeatherData();
 });
