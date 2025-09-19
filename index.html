@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Clima</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="theme-switch-wrapper">
+            <i class="fas fa-sun"></i>
+            <label class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+            <i class="fas fa-moon"></i>
+        </div>
+
+        <h1>App de Clima</h1>
+        
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Digite o nome da cidade...">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        
+        <div id="weather-info" class="hide">
+            
+            <div id="city-header">
+                <h2 id="city-name"></h2>
+                <img id="country-flag" src="" alt="Bandeira do país">
+            </div>
+
+            <p id="temperature"></p>
+            
+            <div id="description-container">
+                <p id="description"></p>
+                <img id="weather-icon" src="" alt="Ícone do tempo">
+            </div>
+
+            <div id="extra-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <p id="humidity"></p>
+                        <p>Umidade</p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p id="wind"></p>
+                        <p>Vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="hide">
+            <div class="loader"></div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+
+
+</body>
+</html>
