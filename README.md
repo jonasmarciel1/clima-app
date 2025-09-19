@@ -3,7 +3,7 @@ Um dashboard de previsão do tempo moderno e interativo, construído do zero com
 
 🎬 Demonstração em Vídeo
 Abaixo, uma demonstração de como a aplicação funciona, incluindo a busca por uma cidade e a troca de tema entre Claro (Light) e Escuro (Dark).
-
+![Demonstração do Weather App](./demo.gif)
 
 
 ✨ Funcionalidades Principais
